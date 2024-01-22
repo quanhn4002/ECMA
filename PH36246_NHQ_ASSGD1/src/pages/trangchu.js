@@ -25,10 +25,11 @@ const trangchu = function () {
                                         ${item.name}
                                     </a>
                                 </h3>
-                                <p class="mt-1 text-sm text-gray-500">${item.location}</p>
+                                 <p class="mt-1 text-sm text-gray-500"> ${item.location}</p>
                             </div>
                             <p class="text-l font-medium text-red-900">$${item.priceRange}</p>
-                        </div>
+                            </div>
+                            <p class="text-l font-medium text-grey-900"> Available Rooms:${item.numRooms}</p>
                     </div>
                 `;
             }).join('')}
