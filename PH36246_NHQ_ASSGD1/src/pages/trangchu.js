@@ -32,7 +32,7 @@ const trangchu = function () {
                             <p class="text-l font-medium text-grey-900"> Available Rooms:${item.numRooms}</p>
                     </div>
                 `;
-            }).join('')}
+            }).join('')}  
         </div>
         ${FooterComponents()}
     `;

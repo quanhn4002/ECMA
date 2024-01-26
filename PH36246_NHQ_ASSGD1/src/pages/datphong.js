@@ -8,7 +8,7 @@ const datphong = function () {
   return `
     ${HeaderComponents()}
    
-        <div class="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden w-76">
           <div class="text-2xl py-4 px-6 bg-gray-900 text-white text-center font-bold uppercase">
             Book A Room
           </div>
@@ -39,20 +39,22 @@ const datphong = function () {
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="date">
-                Date
+                Check-in
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="date" type="date" placeholder="Select a date">
             </div>
             <div class="mb-4">
-              <label class="block text-gray-700 font-bold mb-2" for="time">
-                Time
+              <label class="block text-gray-700 font-bold mb-2" for="date">
+                Check-out
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="time" type="time" placeholder="Select a time">
+                id="date" type="date" placeholder="Select a date">
             </div>
+           
+
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="service">
               Hạng Khách Sạn
@@ -70,7 +72,7 @@ const datphong = function () {
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="service">
-              Service
+              Hotel
               </label>
               <select
               ${khachsan.map(function (item) {
