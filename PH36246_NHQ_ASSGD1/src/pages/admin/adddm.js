@@ -6,9 +6,9 @@ const addDm = function () {
   useEffect(() => {
     const formadddm = document.querySelector("#form-adddm");
 
+    const categoryName = document.querySelector("#categoryName");
    formadddm.addEventListener("submit", (e) => {
       e.preventDefault();
-      const categoryName = document.querySelector("#categoryName");
 
       let newCategory = {
         "categoryName": categoryName.value,
@@ -46,7 +46,8 @@ const addDm = function () {
               type="submit">
               Thêm
             </button>
-          </div>
+            </div>
+          </form>
           
     </div>
   

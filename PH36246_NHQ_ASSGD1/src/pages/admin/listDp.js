@@ -50,13 +50,13 @@ const ListDp = function () {
              </th>
              <th scope="col" class="px-4 py-2">
                 Checkout
-               </th>
+              </th>
+               <th scope="col" class="px-4 py-2">
+                  Tên Khách Sạn
+              </th>
                <th scope="col" class="px-4 py-2">
               Loại Phòng
            </th>
-           <th scope="col" class="px-4 py-2">
-              Tên Khách Sạn
-             </th>
                 <th scope="col" class="px-4 py-2">
                 Mô Tả
             </th>
@@ -89,10 +89,10 @@ const ListDp = function () {
             ${post.checkout}
             </th>
             <th scope="row" class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" >
-            ${post.categoryName}
+            ${post.nameHotel}
             </th>
             <th scope="row" class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" >
-            ${post.hotelName}
+            ${post.categoryName}
             </th>
             <th scope="row" class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" >
             ${post.description}

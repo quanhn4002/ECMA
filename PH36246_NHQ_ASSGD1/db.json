@@ -232,34 +232,30 @@
       }
     },
     {
-      "id": "9",
-      "name": "Mường Thanh Luxury Phú Quốc Hotel",
+      "name": "Mường Thanh Luxury Phú Quốc Hotel 124",
       "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x527-FIT_AND_TRIM-62512c5ac44f3ed96dc21f3a03f7f97c.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-      "categoryName": "Bình dân",
+      "categoryName": "1 sao",
       "location": " Dương Tơ, xã Dương Tơ, Phú Quốc, Tỉnh Kiên Giang, Việt Nam",
-      "priceRange": "300",
-      "numRooms": 20,
-      "availableFacilities": [
-        "Wi-Fi",
-        "Gym",
-        "Nhà hàng"
-      ],
-      "reviews": [
-        {
-          "userId": 17,
-          "rating": 4.8,
-          "comment": "Xuất sắc!"
-        },
-        {
-          "userId": 18,
-          "rating": 4,
-          "comment": "Đáng giá"
-        }
-      ],
+      "priceRange": "33232",
+      "numRooms": "20",
       "contactInformation": {
         "email": "MườngThanhLuxuryPhúQuốcHotel@gmail.com",
         "phone": "0123456789"
-      }
+      },
+      "id": "9"
+    },
+    {
+      "name": "quanhai Hel theo",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "categoryName": "1 sao",
+      "location": "hà nội",
+      "priceRange": "6556",
+      "numRooms": "23",
+      "contactInformation": {
+        "email": "quan23@gmail.com",
+        "phone": "232534"
+      },
+      "id": "030f"
     }
   ],
   "datphong": [
@@ -284,6 +280,17 @@
       "categoryName": " 4 Sao",
       "nameHotel": "Millennium Hanoi Hotel ",
       "description": "adaad"
+    },
+    {
+      "id": "467f",
+      "name": "2424242224242",
+      "email": "quan23@gmail.com",
+      "phone": "232534",
+      "checkin": "20/50/231",
+      "checkout": "",
+      "categoryName": "2 Sao",
+      "nameHotel": "River Hotel Ha Tien",
+      "description": "zsdad"
     }
   ]
 }
