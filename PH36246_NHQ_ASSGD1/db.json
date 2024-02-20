@@ -1,188 +1,300 @@
 {
-    "danhmuckhachsan": [
-      { "id": 1, "categoryName": "Bình dân" },
-      { "id": 2, "categoryName": "2 Sao" },
-      { "id": 3, "categoryName": "3 Sao" },
-      { "id": 5, "categoryName": "5 Sao" }
-      
-    ],
-    "khachsan": [
-      {
-        "id": 1,
-        "name": "Millennium Hanoi Hotel ",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016481-0fc9c242de2ca7e8fcae8aa7bb1dd3d8.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "categoryName": "Bình dân",
-        "location": "Bệnh Viện Phụ Sản Trung Ương Phòng Khám Đa Khoa Quốc Tế Hồng Ngọc",
-        "priceRange": "500",
-        "numRooms": 5,
-        "availableFacilities": ["Wi-Fi", "Điều hòa", "Nhà hàng"],
-        "reviews": [
-          { "userId": 1, "rating": 4.5, "comment": "Rất tốt!" },
-          { "userId": 2, "rating": 3.8, "comment": "Khá ổn" }
-        ],
-        "contactInformation": {
-          "email": "Millennium Hanoi Hotel@gamil.com",
-          "phone": "09977240242"
+  "danhmuckhachsan": [
+    {
+      "categoryName": "1 sao",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "categoryName": "2 Sao"
+    },
+    {
+      "id": "3",
+      "categoryName": "3 Sao"
+    },
+    {
+      "id": "5",
+      "categoryName": "5 Sao"
+    },
+    {
+      "id": "9e37",
+      "categoryName": " 4 Sao"
+    }
+  ],
+  "khachsan": [
+    {
+      "id": "1",
+      "name": "Millennium Hanoi Hotel ",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016481-0fc9c242de2ca7e8fcae8aa7bb1dd3d8.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": "Bệnh Viện Phụ Sản Trung Ương Phòng Khám Đa Khoa Quốc Tế Hồng Ngọc",
+      "priceRange": "500",
+      "numRooms": 5,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Điều hòa",
+        "Nhà hàng"
+      ],
+      "reviews": [
+        {
+          "userId": 1,
+          "rating": 4.5,
+          "comment": "Rất tốt!"
+        },
+        {
+          "userId": 2,
+          "rating": 3.8,
+          "comment": "Khá ổn"
         }
-      },
-      {
-        "id": 2,
-        "name": "Muong Thanh Hanoi Centre Hotel",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x527-FIT_AND_TRIM-62512c5ac44f3ed96dc21f3a03f7f97c.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": "2 Sao",
-        "location": "78 Thợ Nhuộm, Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
-        "priceRange": "250",
-        "numRooms": 30,
-        "availableFacilities": ["Wi-Fi", "Bể bơi", "Spa"],
-        "reviews": [
-          { "userId": 3, "rating": 4.2, "comment": "Đẹp và thoải mái" },
-          { "userId": 4, "rating": 3.5, "comment": "Chưa tốt lắm" }
-        ],
-        "contactInformation": {
-          "email": "Muong Thanh Hanoi Centre Hotel@gmail.com",
-          "phone": "0999992699"
-        }
-      },
-      {
-        "id": 4,
-        "name": "Hanoi De Maison Grand Hotel",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10030146-cf9c8a6621ec0a5ba5a1a74206130a79.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": 1,
-        "location": "106 Hàng Bông, Hàng Bông, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
-        "priceRange": "150",
-        "numRooms": 40,
-        "availableFacilities": ["Wi-Fi", "Nhà hàng"],
-        "reviews": [
-          { "userId": 7, "rating": 4.0, "comment": "Giá phải chăng" },
-          { "userId": 8, "rating": 3.2, "comment": "Không đặc sắc lắm" }
-        ],
-        "contactInformation": {
-          "email": "Hanoi De Maison Grand Hotel@gamil.com",
-          "phone": ""
-        }
-      },
-      {
-        "id": 5,
-        "name": "Mai Charming Hotel and Spa",
-        "category": 2,
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10030105-62f3df0a2883c1fe48627ad3ef5e4d9d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "location": "29 Hàng Bông, Hàng Gai, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
-        "priceRange": "120 - 200",
-        "numRooms": 35,
-        "availableFacilities": ["Wi-Fi", "Bể bơi", "Spa"],
-        "reviews": [
-          { "userId": 9, "rating": 4.5, "comment": "Dịch vụ tốt" },
-          { "userId": 10, "rating": 3.8, "comment": "Không có gì đặc sắc" }
-        ],
-        "contactInformation": {
-          "email": "MaiCharmingHotelandSpa@gamil.com",
-          "phone": "0123456789"
-        }
-      },
-      {
-        "id": 6,
-        "name": "Vision Premier Hotel & Spa",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20009795-db238d34ffccb8df75276c87913ab008.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": 3,
-        "location": "41 Phủ Doãn, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
-        "priceRange": " 300",
-        "numRooms": 25,
-        "availableFacilities": ["Wi-Fi", "Gym", "Nhà hàng"],
-        "reviews": [
-          { "userId": 11, "rating": 4.7, "comment": "Đẳng cấp cao" },
-          { "userId": 12, "rating": 4.2, "comment": "Phục vụ tận tình" }
-        ],
-        "contactInformation": {
-          "email": "Vision Premier Hotel & Spa@gamil.com",
-          "phone": "0123456789"
-        }
-      },
-      {
-        "id": 7,
-        "name": "Lan Rung Phuoc Hai Resort & SpaG",
-        "image" : "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x519-FIT_AND_TRIM-36f3b816880bf58746af15ab83ec84a8.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640 ",
-        "category": 1,
-        "location": " Phước Hải, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu, Việt Nam",
-        "priceRange": " 200",
-        "numRooms": 50,
-        "availableFacilities": ["Wi-Fi", "Điều hòa", "Nhà hàng"],
-        "reviews": [
-          { "userId": 13, "rating": 4.5, "comment": "Rất tốt!" },
-          { "userId": 14, "rating": 3.8, "comment": "Khá ổn" }
-        ],
-        "contactInformation": {
-          "email": "Lan Rung Phuoc Hai Resort & SpaG@gamils.com",
-          "phone": "0999999999"
-        }
-      },
-      {
-        "id": 8,
-        "name": "River Hotel Ha Tien",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10040628-2b69c3b52100e020de9f4dd761f63c53.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": 2,
-        "location": " Phường Bình San, Bình San, Hà Tiên, Tỉnh Kiên Giang, Việt Nam",
-        "priceRange": "  250",
-        "numRooms": 30,
-        "availableFacilities": ["Wi-Fi", "Bể bơi", "Spa"],
-        "reviews": [
-          { "userId": 15, "rating": 4.2, "comment": "Đẹp và thoải mái" },
-          { "userId": 16, "rating": 3.5, "comment": "Chưa tốt lắm" }
-        ],
-        "contactInformation": {
-          "email": "River Hotel Ha Tien@gmail.com",
-          "phone": "0686868855"
-        }
-      },
-      {
-        "id": 9,
-        "name": "Mường Thanh Luxury Phú Quốc Hotel",
-        "image" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x527-FIT_AND_TRIM-62512c5ac44f3ed96dc21f3a03f7f97c.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": 3,
-        "location": " Dương Tơ, xã Dương Tơ, Phú Quốc, Tỉnh Kiên Giang, Việt Nam",
-        "priceRange": "300",
-        "numRooms": 20,
-        "availableFacilities": ["Wi-Fi", "Gym", "Nhà hàng"],
-        "reviews": [
-          { "userId": 17, "rating": 4.8, "comment": "Xuất sắc!" },
-          { "userId": 18, "rating": 4.0, "comment": "Đáng giá" }
-        ],
-        "contactInformation": {
-          "email": "MườngThanhLuxuryPhúQuốcHotel@gmail.com",
-          "phone": "0123456789"
-        }
-      },
-      {
-        "id": 10,
-        "name": "Central Park Saigon Hotel",
-        "image" :"https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x511-FIT_AND_TRIM-a8ce6241a80efa17857a1fe7fb1211ba.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
-        "category": 1,
-        "location": "23 Hai Bà Trưng, Phường 6, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
-        "priceRange": "80 - 150",
-        "numRooms": 40,
-        "availableFacilities": ["Wi-Fi", "Nhà hàng"],
-        "reviews": [
-          { "userId": 19, "rating": 4.0, "comment": "Giá phải chăng" },
-          { "userId": 20, "rating": 3.2, "comment": "Không đặc sắc lắm" }
-        ],
-        "contactInformation": {
-          "email": "Central Park Saigon Hotel@gmail.com",
-          "phone": "088888888886"
-        }
+      ],
+      "contactInformation": {
+        "email": "Millennium Hanoi Hotel@gamil.com",
+        "phone": "09977240242"
       }
-    ],
-    "datphong": [
-      {
-        "name":"Nguyễn Hải Quân",
-        "email":"Quan@gamil.com",
-        "phone":"0999999999",
-        "checkin":"2021-07-01",
-        "checkout":"2021-07-03",
-        "categoryName":"Bình dân",
-        "nameHotel":"Millennium Hanoi Hotel",
-        "Description":"Rất tốt!"
-      
+    },
+    {
+      "id": "2",
+      "name": "Muong Thanh Hanoi Centre Hotel",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x527-FIT_AND_TRIM-62512c5ac44f3ed96dc21f3a03f7f97c.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": "78 Thợ Nhuộm, Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
+      "priceRange": "250",
+      "numRooms": 30,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Bể bơi",
+        "Spa"
+      ],
+      "reviews": [
+        {
+          "userId": 3,
+          "rating": 4.2,
+          "comment": "Đẹp và thoải mái"
+        },
+        {
+          "userId": 4,
+          "rating": 3.5,
+          "comment": "Chưa tốt lắm"
+        }
+      ],
+      "contactInformation": {
+        "email": "Muong Thanh Hanoi Centre Hotel@gmail.com",
+        "phone": "0999992699"
       }
-    ]
-  }
-  
-  
+    },
+    {
+      "id": "4",
+      "name": "Hanoi De Maison Grand Hotel",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10030146-cf9c8a6621ec0a5ba5a1a74206130a79.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": "106 Hàng Bông, Hàng Bông, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
+      "priceRange": "150",
+      "numRooms": 40,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Nhà hàng"
+      ],
+      "reviews": [
+        {
+          "userId": 7,
+          "rating": 4,
+          "comment": "Giá phải chăng"
+        },
+        {
+          "userId": 8,
+          "rating": 3.2,
+          "comment": "Không đặc sắc lắm"
+        }
+      ],
+      "contactInformation": {
+        "email": "Hanoi De Maison Grand Hotel@gamil.com",
+        "phone": ""
+      }
+    },
+    {
+      "id": "5",
+      "name": "Mai Charming Hotel and Spa",
+      "categoryName": "Bình dân",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10030105-62f3df0a2883c1fe48627ad3ef5e4d9d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "location": "29 Hàng Bông, Hàng Gai, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
+      "priceRange": "120 - 200",
+      "numRooms": 35,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Bể bơi",
+        "Spa"
+      ],
+      "reviews": [
+        {
+          "userId": 9,
+          "rating": 4.5,
+          "comment": "Dịch vụ tốt"
+        },
+        {
+          "userId": 10,
+          "rating": 3.8,
+          "comment": "Không có gì đặc sắc"
+        }
+      ],
+      "contactInformation": {
+        "email": "MaiCharmingHotelandSpa@gamil.com",
+        "phone": "0123456789"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Vision Premier Hotel & Spa",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20009795-db238d34ffccb8df75276c87913ab008.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": "41 Phủ Doãn, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
+      "priceRange": " 300",
+      "numRooms": 25,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Gym",
+        "Nhà hàng"
+      ],
+      "reviews": [
+        {
+          "userId": 11,
+          "rating": 4.7,
+          "comment": "Đẳng cấp cao"
+        },
+        {
+          "userId": 12,
+          "rating": 4.2,
+          "comment": "Phục vụ tận tình"
+        }
+      ],
+      "contactInformation": {
+        "email": "Vision Premier Hotel & Spa@gamil.com",
+        "phone": "0123456789"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Lan Rung Phuoc Hai Resort & SpaG",
+      "image": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x519-FIT_AND_TRIM-36f3b816880bf58746af15ab83ec84a8.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640 ",
+      "categoryName": "Bình dân",
+      "location": " Phước Hải, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu, Việt Nam",
+      "priceRange": " 200",
+      "numRooms": 50,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Điều hòa",
+        "Nhà hàng"
+      ],
+      "reviews": [
+        {
+          "userId": 13,
+          "rating": 4.5,
+          "comment": "Rất tốt!"
+        },
+        {
+          "userId": 14,
+          "rating": 3.8,
+          "comment": "Khá ổn"
+        }
+      ],
+      "contactInformation": {
+        "email": "Lan Rung Phuoc Hai Resort & SpaG@gamils.com",
+        "phone": "0999999999"
+      }
+    },
+    {
+      "id": "8",
+      "name": "River Hotel Ha Tien",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10040628-2b69c3b52100e020de9f4dd761f63c53.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": " Phường Bình San, Bình San, Hà Tiên, Tỉnh Kiên Giang, Việt Nam",
+      "priceRange": "  250",
+      "numRooms": 30,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Bể bơi",
+        "Spa"
+      ],
+      "reviews": [
+        {
+          "userId": 15,
+          "rating": 4.2,
+          "comment": "Đẹp và thoải mái"
+        },
+        {
+          "userId": 16,
+          "rating": 3.5,
+          "comment": "Chưa tốt lắm"
+        }
+      ],
+      "contactInformation": {
+        "email": "River Hotel Ha Tien@gmail.com",
+        "phone": "0686868855"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Mường Thanh Luxury Phú Quốc Hotel",
+      "image": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025235-800x527-FIT_AND_TRIM-62512c5ac44f3ed96dc21f3a03f7f97c.png?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "categoryName": "Bình dân",
+      "location": " Dương Tơ, xã Dương Tơ, Phú Quốc, Tỉnh Kiên Giang, Việt Nam",
+      "priceRange": "300",
+      "numRooms": 20,
+      "availableFacilities": [
+        "Wi-Fi",
+        "Gym",
+        "Nhà hàng"
+      ],
+      "reviews": [
+        {
+          "userId": 17,
+          "rating": 4.8,
+          "comment": "Xuất sắc!"
+        },
+        {
+          "userId": 18,
+          "rating": 4,
+          "comment": "Đáng giá"
+        }
+      ],
+      "contactInformation": {
+        "email": "MườngThanhLuxuryPhúQuốcHotel@gmail.com",
+        "phone": "0123456789"
+      }
+    }
+  ],
+  "datphong": [
+    {
+      "name": "Nguyễn Hải Quân",
+      "email": "Quan@gamil.com",
+      "phone": "0999999999",
+      "checkin": "2021-07-01",
+      "checkout": "2021-07-03",
+      "categoryName": "Bình dân",
+      "nameHotel": "Millennium Hanoi Hotel",
+      "description": "Rất tốt!",
+      "id": "3e19"
+    },
+    {
+      "id": "1ca6",
+      "name": "quanhai",
+      "email": "quan23@gmail.com",
+      "phone": "232534",
+      "checkin": "20/50/231",
+      "checkout": "10/32/20",
+      "categoryName": "",
+      "nameHotel": "",
+      "description": "vdg"
+    },
+    {
+      "id": "e491",
+      "name": "quanhai",
+      "email": "quan23@gmail.com",
+      "phone": "232534",
+      "checkin": "",
+      "checkout": "",
+      "categoryName": "2 Sao",
+      "nameHotel": "Hanoi De Maison Grand Hotel",
+      "description": "dggs"
+    }
+  ]
+}

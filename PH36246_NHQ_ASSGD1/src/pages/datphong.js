@@ -1,10 +1,46 @@
-// lienhe.js
 import FooterComponents from "../components/Footer";
 import HeaderComponents from "../components/header";
-import { danhmuckhachsan } from '../../db.json' assert { type: "json" };
-import { khachsan } from '../../db.json' assert { type: "json" };
+import { danhmuckhachsan } from '../../db.json';
+import { khachsan } from '../../db.json';
+import { router, useEffect } from "../libs";
 
 const datphong = function () {
+
+  useEffect(() => {
+    const formDatPhong = document.querySelector("#form-datphong");
+
+    formDatPhong.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.querySelector("#name").value;
+      const email = document.querySelector("#email").value;
+      const phone = document.querySelector("#phone").value;
+      const checkin = document.querySelector("#checkin").value;
+      const checkout = document.querySelector("#checkout").value;
+      const categoryName = document.querySelector("#categoryName").value;
+      const nameHotel = document.querySelector("#nameHotel").value;
+      const description = document.querySelector("#description").value;
+
+      let newRoom = {
+        "name": name,
+        "email": email,
+        "phone": phone,
+        "checkin": checkin,
+        "checkout": checkout,
+        "categoryName": categoryName,
+        "nameHotel": nameHotel,
+        "description": description
+      };
+
+      fetch("http://localhost:3000/datphong", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newRoom)
+      }).then(() => router.navigate("./lienhe"));
+    });
+  }, []);
+
   return `
     ${HeaderComponents()}
    
@@ -27,7 +63,7 @@ const datphong = function () {
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email" type="email" placeholder="Enter your email">
+                id="email" type="text" placeholder="Enter your email">
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="phone">
@@ -35,7 +71,7 @@ const datphong = function () {
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="phone" type="tel" placeholder="Enter your phone number">
+                id="phone" type="text" placeholder="Enter your phone number">
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="date">
@@ -43,7 +79,7 @@ const datphong = function () {
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="date" type="date" placeholder="Select a date">
+                id="checkin" type="text" placeholder="Select a date">
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="date">
@@ -51,39 +87,27 @@ const datphong = function () {
               </label>
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="date" type="date" placeholder="Select a date">
+                id="checkout" type="text" placeholder="Select a date">
             </div>
-           
-
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="service">
               Hạng Khách Sạn
               </label>
               <select
-              ${danhmuckhachsan.map(function (item) {
-                return `
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="service" name="service">
-                <option value="">${item.categoryName}  </option>
-                
-                `;}).join('')}
+                id="categoryName"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                ${danhmuckhachsan.map((item) => `<option value="${item.categoryName}">${item.categoryName}</option>`).join('')}
               </select>
-              
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="service">
               Hotel
               </label>
               <select
-              ${khachsan.map(function (item) {
-                return `
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="service" name="service">
-                <option value="">${item.name}  </option>
-                
-                `;}).join('')}
+                id="nameHotel"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                ${khachsan.map((item) => `<option value="${item.name}">${item.name}</option>`).join('')}
               </select>
-              
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="message">
@@ -91,7 +115,7 @@ const datphong = function () {
               </label>
               <textarea
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message" rows="4" placeholder="Enter any additional information"></textarea>
+                id="description" rows="4" placeholder="Enter any additional information"></textarea>
             </div>
             <div class="flex items-center justify-center mb-4">
               <button

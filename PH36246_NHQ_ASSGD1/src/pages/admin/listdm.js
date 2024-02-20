@@ -33,7 +33,7 @@ const Listdm = function () {
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
 
 <div class="flex justify-center items-center ">
-    <a href="/addDm" class="px-14 py-2 m-2 text-sm text-white bg-green-500 rounded-lg hover:bg-green-600" style="margin-right:90%;width:200px">Thêm Danh Mục</a>
+    <a href="/admin/adddm" class="px-14 py-2 m-2 text-sm text-white bg-green-500 rounded-lg hover:bg-green-600" style="margin-right:90%;width:200px">Thêm Danh Mục</a>
 </div>
 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -55,7 +55,7 @@ const Listdm = function () {
         ${post.categoryName}
          </th>
             <td class="px-6 py-4">
-                <a href="/updateDm/${post.id}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                <a href="/admin/updatedm/${post.id}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                
                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" style="padding-left: 20px;"><button data-id="${post.id}" class="btn-delete">Delete</button></a>
             </td>
