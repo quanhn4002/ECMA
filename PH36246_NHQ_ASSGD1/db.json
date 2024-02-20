@@ -3,7 +3,6 @@
       { "id": 1, "categoryName": "Bình dân" },
       { "id": 2, "categoryName": "2 Sao" },
       { "id": 3, "categoryName": "3 Sao" },
-      { "id": 4, "categoryName": "4 Sao" },
       { "id": 5, "categoryName": "5 Sao" }
       
     ],
@@ -169,6 +168,19 @@
           "email": "Central Park Saigon Hotel@gmail.com",
           "phone": "088888888886"
         }
+      }
+    ],
+    "datphong": [
+      {
+        "name":"Nguyễn Hải Quân",
+        "email":"Quan@gamil.com",
+        "phone":"0999999999",
+        "checkin":"2021-07-01",
+        "checkout":"2021-07-03",
+        "categoryName":"Bình dân",
+        "nameHotel":"Millennium Hanoi Hotel",
+        "Description":"Rất tốt!"
+      
       }
     ]
   }

@@ -12,7 +12,7 @@ const datphong = function () {
           <div class="text-2xl py-4 px-6 bg-gray-900 text-white text-center font-bold uppercase">
             Book A Room
           </div>
-          <form class="py-4 px-6" action="" method="POST">
+          <form class="py-4 px-6" action="" method="POST" id="form-datphong">
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2" for="name">
                 Name

@@ -1,30 +1,28 @@
 // index.js
+
+import Listdm from "./pages/admin/listdm";
 import datphong from "./pages/datphong";
 import lienhe from "./pages/lienhe";
 import trangchu from "./pages/trangchu";
-import Navigo from "navigo";
+import{render,router} from './libs';
 
-const render = (container, components) => {
-    document.querySelector(container).innerHTML = components;
-};
+const app = document.querySelector("#app");
 
-// Initial render on page load
-render("#app", trangchu());
 
-// Set up Navigo router
-const router = new Navigo("/", { linkSelector: "a" });
-
-// Define routes
 router.on("/", function () {
-    render("#app", trangchu());
+    render(app, trangchu);
 });
 
 router.on("/lienhe", function () {
-    render("#app", lienhe());
+    render(app, lienhe);
 });
 
 router.on("/datphong", function () {
-    render("#app", datphong());
+    render(app, datphong);
+});
+
+router.on("/admin/listdm", function () {
+    render(app, Listdm);
 });
 
 // Resolve the routes
