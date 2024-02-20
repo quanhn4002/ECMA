@@ -38,6 +38,7 @@ const datphong = function () {
         },
         body: JSON.stringify(newRoom)
       }).then(() => router.navigate("./lienhe"));
+      alert("Đặt phòng thành công");
     });
   }, []);
 
