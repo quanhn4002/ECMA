@@ -11,6 +11,7 @@ import addDm from "./pages/admin/adddm";
 import addKs from "./pages/admin/addks";
 import updatedm from "./pages/admin/updatedm";
 import updateks from "./pages/admin/updateks";
+import updateDp from "./pages/admin/updatedp";
 
 const app = document.querySelector("#app");
 
@@ -48,6 +49,8 @@ router.on('/admin/updatedm/:id',function({data}){
 router.on('/admin/updateks/:id',function({data}){
     render(app,() => updateks(data.id))
 });
-
+router.on('/admin/updatedp/:id',function({data}){
+    render(app,() => updateDp(data.id))
+});
 // Resolve the routes
 router.resolve();

@@ -57,7 +57,9 @@ const Listdm = function () {
             <td class="px-6 py-4">
                 <a href="/admin/updatedm/${post.id}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" style="padding-left: 20px;"><button data-id="${post.id}" class="btn-delete">Delete</button></a>
+                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" style="padding-left: 20px;">
+                <button data-id="${post.id}" class="btn-delete">Delete</button>
+                </a>
             </td>
         </tr>
       `;

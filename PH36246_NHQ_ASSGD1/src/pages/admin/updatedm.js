@@ -35,7 +35,7 @@ const updatedm= function (id) {
    
         <div class="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden w-76">
           <div class="text-2xl py-4 px-6 bg-gray-900 text-white text-center font-bold uppercase">
-            Update Category
+            SỬA DANH MỤC
           </div>
           <form class="py-4 px-6" action="" id="form-upatedm">
             <div class="mb-4">
@@ -50,7 +50,7 @@ const updatedm= function (id) {
             <button
               class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline"
               type="submit">
-              Thêm
+            Sửa Danh Mục
             </button>
           </div>
           

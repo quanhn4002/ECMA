@@ -53,7 +53,7 @@ const updateks = function (id) {
     ${HeaderComponentsadmin()}
     <div class="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden w-76">
       <div class="text-2xl py-4 px-6 bg-gray-900 text-white text-center font-bold uppercase">
-        THÊM LOẠI PHÒNG
+        SỬA LOẠI PHÒNG
       </div>
       <form class="py-4 px-6" action=""  id="form-updateks">
         <div class="mb-4">
@@ -91,7 +91,7 @@ const updateks = function (id) {
           <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="text" placeholder="Nhập liên hệ số điện thoại" value="${post.contactInformation ? post.contactInformation.phone : ''}">
         </div>
         <div class="flex items-center justify-center mb-4">
-          <button class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline" type="submit">Sửa</button>
+          <button class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline" type="submit">Sửa Đặt Phòng</button>
         </div>
       </form>
     </div>
